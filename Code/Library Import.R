@@ -6,5 +6,8 @@ library_load <- c("plyr", "tidyr", "data.table", "readr",
                   "maptools", "rgdal", "lubridate", "corrplot",
                   "httr", "jsonlite", "zoo", "tibble", "broom",
                   "tweenr", "nomisr", "animation", "magick", "shiny",
-                  "rsconnect", "geosphere","RColorBrewer")
+                  "rsconnect", "geosphere","RColorBrewer", "tiff", 
+                  "iterators")
 lapply(library_load, library, character.only = TRUE)
+
+rm(library_load)
